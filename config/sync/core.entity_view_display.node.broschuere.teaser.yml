@@ -1,0 +1,31 @@
+uuid: 1d9efe6e-06e8-463b-861e-014d1aaa00ac
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.broschuere.body
+    - node.type.broschuere
+  module:
+    - text
+    - user
+id: node.broschuere.teaser
+targetEntityType: node
+bundle: broschuere
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

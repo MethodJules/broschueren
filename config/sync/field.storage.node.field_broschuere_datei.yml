@@ -1,0 +1,23 @@
+uuid: 7d2a11d2-8acd-4c37-a93b-2cb38e752ddb
+langcode: de
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_broschuere_datei
+field_name: field_broschuere_datei
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: e25cd4f8-3990-4948-aa3a-130038839455
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - example
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: example_messages
+theme: example
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

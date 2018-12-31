@@ -1,0 +1,7 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      css/base/elements.css: {}
+      css/components/menu.css: {}
+      css/components/logo.css: {}

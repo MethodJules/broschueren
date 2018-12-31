@@ -1,0 +1,22 @@
+uuid: 88dacf40-f7cc-4d6a-98d0-1fb54c252768
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - example
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: example_breadcrumbs
+theme: example
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Pfadnavigation
+  provider: system
+  label_display: '0'
+visibility: {  }

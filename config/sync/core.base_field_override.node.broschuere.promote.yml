@@ -1,0 +1,22 @@
+uuid: a803ea6a-bf63-4745-a808-7a0161f78d69
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.broschuere
+id: node.broschuere.promote
+field_name: promote
+entity_type: node
+bundle: broschuere
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

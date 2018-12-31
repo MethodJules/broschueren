@@ -1,0 +1,27 @@
+uuid: 6b72e130-6d01-47c0-ab5b-26750142c350
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_broschuere_datei
+    - node.type.broschuere
+  module:
+    - file
+id: node.broschuere.field_broschuere_datei
+field_name: field_broschuere_datei
+entity_type: node
+bundle: broschuere
+label: Datei
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

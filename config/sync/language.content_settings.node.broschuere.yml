@@ -1,0 +1,11 @@
+uuid: f3fa4c7d-6224-4483-84e2-abf8d7e53f89
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.broschuere
+id: node.broschuere
+target_entity_type_id: node
+target_bundle: broschuere
+default_langcode: site_default
+language_alterable: false

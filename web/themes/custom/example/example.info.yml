@@ -1,0 +1,16 @@
+name: Awesome Theme
+description: 'An awesome theme'
+package: Custom
+type: theme
+version: 1.0
+core: 8.x
+base theme: classy
+screenshot: bausteine.png
+libraries:
+  - 'example/global-styling'
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  footer: 'Footer'

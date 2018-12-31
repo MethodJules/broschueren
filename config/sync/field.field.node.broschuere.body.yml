@@ -1,0 +1,22 @@
+uuid: 644b3cd1-cfe4-42bf-98a9-b1a1be6cd309
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.broschuere
+  module:
+    - text
+id: node.broschuere.body
+field_name: body
+entity_type: node
+bundle: broschuere
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

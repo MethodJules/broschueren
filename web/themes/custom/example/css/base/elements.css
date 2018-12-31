@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1.625;
+    word-wrap: break-word;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 87.5%;
+    background-color: #fff;
+    color: #4d4d4d
+}
+
+a {
+ color: #e3001b;
+    text-decoration: none;
+    background-color: transparent;
+}
+a.link {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+a:hover,
+a:active,
+a:focus,
+.link:hover,
+.link:active,
+.link:focus {
+    text-decoration: none;
+    border-bottom-style: solid;
+}

@@ -1,0 +1,38 @@
+uuid: cf6d5d87-0ebb-4b6e-8be5-93d3f2207bba
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.broschuere.body
+    - field.field.node.broschuere.field_broschuere_datei
+    - node.type.broschuere
+  module:
+    - gdoc_field
+    - text
+    - user
+id: node.broschuere.default
+targetEntityType: node
+bundle: broschuere
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_broschuere_datei:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: gdoc_field
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

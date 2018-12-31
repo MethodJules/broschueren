@@ -1,0 +1,22 @@
+uuid: de6367f6-f77e-456f-bf30-21eb32c6883c
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - example
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: example_content
+theme: example
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: Haupt-Seiteninhalt
+  provider: system
+  label_display: '0'
+visibility: {  }
